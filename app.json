@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SetupFX24",
-    "slug": "setupfx24",
+    "name": "powertradefx",
+    "slug": "powertradefx",
     "version": "1.0.0",
     "runtimeVersion": "1.0.0",
     "orientation": "portrait",
@@ -27,7 +27,7 @@
           "NSAllowsLocalNetworking": true
         }
       },
-      "bundleIdentifier": "com.setupfx24.app"
+      "bundleIdentifier": "com.powertradefx.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -35,7 +35,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.setupfx24.app"
+      "package": "com.powertradefx.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"

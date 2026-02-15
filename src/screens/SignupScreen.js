@@ -200,11 +200,11 @@ const SignupScreen = ({ navigation }) => {
         {/* Logo */}
         <View style={styles.logoContainer}>
           <Image 
-            source={require('../../assets/SetupFX.png')} 
+            source={require('../../assets/powertradefxlogo.png')} 
             style={styles.logoImage}
             resizeMode="contain"
           />
-          <Text style={styles.brandName}>SetupFX24</Text>
+          <Text style={styles.brandName}>PowerTradeFX</Text>
         </View>
 
         {/* Tab Switcher */}

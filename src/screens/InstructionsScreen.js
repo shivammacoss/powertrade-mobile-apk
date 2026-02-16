@@ -188,15 +188,15 @@ const styles = StyleSheet.create({
     marginBottom: 16, 
     padding: 16, 
     borderRadius: 16, 
-    backgroundColor: '#dc262615',
+    backgroundColor: '#2563eb15',
     borderWidth: 1,
-    borderColor: '#dc262630'
+    borderColor: '#2563eb30'
   },
   welcomeIcon: { 
     width: 50, 
     height: 50, 
     borderRadius: 25, 
-    backgroundColor: '#dc262620', 
+    backgroundColor: '#2563eb20', 
     justifyContent: 'center', 
     alignItems: 'center' 
   },
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     width: 36, 
     height: 36, 
     borderRadius: 10, 
-    backgroundColor: '#dc262620', 
+    backgroundColor: '#2563eb20', 
     justifyContent: 'center', 
     alignItems: 'center',
     marginRight: 12
@@ -246,13 +246,13 @@ const styles = StyleSheet.create({
     width: 24, 
     height: 24, 
     borderRadius: 12, 
-    backgroundColor: '#dc262620', 
+    backgroundColor: '#2563eb20', 
     justifyContent: 'center', 
     alignItems: 'center',
     marginRight: 12,
     marginTop: 2
   },
-  contentNumberText: { color: '#dc2626', fontSize: 12, fontWeight: 'bold' },
+  contentNumberText: { color: '#2563eb', fontSize: 12, fontWeight: 'bold' },
   contentText: { flex: 1 },
   contentTitle: { color: '#fff', fontSize: 14, fontWeight: '600' },
   contentDescription: { color: '#888', fontSize: 13, marginTop: 4, lineHeight: 18 },
@@ -270,7 +270,7 @@ const styles = StyleSheet.create({
   supportTitle: { color: '#fff', fontSize: 16, fontWeight: '600', marginBottom: 8 },
   supportText: { color: '#888', fontSize: 13, lineHeight: 18, marginBottom: 16 },
   supportBtn: { 
-    backgroundColor: '#dc2626', 
+    backgroundColor: '#2563eb', 
     paddingVertical: 12, 
     borderRadius: 10, 
     alignItems: 'center' 

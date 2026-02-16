@@ -1,16 +1,16 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import * as SecureStore from 'expo-secure-store';
 
-// Dark theme (Venta Black / Red with Multi-color accents)
+// Dark theme (Venta Black / Blue with Multi-color accents)
 // Ventablack: #0a0a0a (not pure black #000000)
 const darkTheme = {
   name: 'Dark',
   isDark: true,
   colors: {
-    primary: '#dc2626',
-    primaryHover: '#b91c1c',
-    secondary: '#ef4444',
-    accent: '#dc2626',
+    primary: '#2563eb',
+    primaryHover: '#1d4ed8',
+    secondary: '#3b82f6',
+    accent: '#2563eb',
     bgPrimary: '#0a0a0a',
     bgSecondary: '#101010',
     bgCard: '#141414',

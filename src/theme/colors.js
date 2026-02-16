@@ -18,8 +18,8 @@ export const darkTheme = {
   borderLight: '#2a2a2a',
   
   // Accent
-  primary: '#d4af37',
-  primaryLight: '#d4af3720',
+  primary: '#2563eb',
+  primaryLight: '#2563eb20',
   
   // Status
   success: '#22c55e',
@@ -28,8 +28,8 @@ export const darkTheme = {
   dangerLight: '#ff444420',
   warning: '#fbbf24',
   warningLight: '#fbbf2420',
-  info: '#dc2626',
-  infoLight: '#dc262620',
+  info: '#2563eb',
+  infoLight: '#2563eb20',
   purple: '#8b5cf6',
   purpleLight: '#8b5cf620',
 };

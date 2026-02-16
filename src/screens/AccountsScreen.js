@@ -591,8 +591,8 @@ const AccountsScreen = ({ navigation, route }) => {
   const renderChallengeAccount = (account) => (
     <View key={account._id} style={[styles.accountCard, { backgroundColor: colors.bgCard, borderColor: colors.border }]}>
       <View style={styles.accountHeader}>
-        <View style={[styles.accountIconContainer, { backgroundColor: '#dc262620' }]}>
-          <Ionicons name="trophy-outline" size={24} color="#dc2626" />
+        <View style={[styles.accountIconContainer, { backgroundColor: '#2563eb20' }]}>
+          <Ionicons name="trophy-outline" size={24} color="#2563eb" />
         </View>
         <View style={styles.accountInfo}>
           <Text style={[styles.accountId, { color: colors.textPrimary }]}>{account.accountId}</Text>
@@ -644,7 +644,7 @@ const AccountsScreen = ({ navigation, route }) => {
 
       {account.status === 'ACTIVE' && (
         <TouchableOpacity 
-          style={[styles.tradeBtn, { backgroundColor: '#dc2626' }]}
+          style={[styles.tradeBtn, { backgroundColor: '#2563eb' }]}
           onPress={() => selectChallengeAccountForTrading(account)}
         >
           <Ionicons name="trending-up" size={18} color="#fff" />
@@ -657,9 +657,9 @@ const AccountsScreen = ({ navigation, route }) => {
   const getStatusColor = (status) => {
     switch (status) {
       case 'ACTIVE': return '#22c55e';
-      case 'PASSED': return '#dc2626';
+      case 'PASSED': return '#2563eb';
       case 'FAILED': return '#ef4444';
-      case 'FUNDED': return '#dc2626';
+      case 'FUNDED': return '#2563eb';
       default: return '#888';
     }
   };
@@ -1334,13 +1334,13 @@ const styles = StyleSheet.create({
     borderColor: '#000000',
   },
   primaryCard: {
-    borderColor: '#dc2626',
+    borderColor: '#2563eb',
     borderWidth: 2,
   },
   primaryBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 12,
@@ -1362,7 +1362,7 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 24,
-    backgroundColor: '#dc262620',
+    backgroundColor: '#2563eb20',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -1414,7 +1414,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 6,
     paddingVertical: 12,
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     borderRadius: 10,
   },
   depositBtnText: {
@@ -1446,7 +1446,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   setPrimaryBtnText: {
-    color: '#dc2626',
+    color: '#2563eb',
     fontSize: 14,
   },
   tradeBtn: {
@@ -1455,7 +1455,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     paddingVertical: 14,
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     borderRadius: 10,
   },
   tradeBtnText: {
@@ -1484,7 +1484,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   tabActive: {
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
   },
   tabText: {
     color: '#888',
@@ -1528,7 +1528,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   walletBalanceValue: {
-    color: '#dc2626',
+    color: '#2563eb',
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -1550,7 +1550,7 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 24,
-    backgroundColor: '#dc262620',
+    backgroundColor: '#2563eb20',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 12,
@@ -1578,7 +1578,7 @@ const styles = StyleSheet.create({
     fontSize: 11,
   },
   buyBtnSmall: {
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     paddingHorizontal: 16,
     paddingVertical: 8,
     borderRadius: 8,
@@ -1673,7 +1673,7 @@ const styles = StyleSheet.create({
     width: 48,
     height: 48,
     borderRadius: 24,
-    backgroundColor: '#dc262620',
+    backgroundColor: '#2563eb20',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 12,
@@ -1716,7 +1716,7 @@ const styles = StyleSheet.create({
   },
   createAccountBtn: {
     flex: 1,
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
@@ -1758,7 +1758,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   transferValueGold: {
-    color: '#dc2626',
+    color: '#2563eb',
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -1776,7 +1776,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   transferSubmitBtn: {
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
@@ -1788,7 +1788,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   withdrawSubmitBtn: {
-    backgroundColor: '#dc2626',
+    backgroundColor: '#2563eb',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
@@ -1812,8 +1812,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   accountSelectCardActive: {
-    backgroundColor: '#dc2626',
-    borderColor: '#dc2626',
+    backgroundColor: '#2563eb',
+    borderColor: '#2563eb',
   },
   accountSelectId: {
     fontSize: 14,

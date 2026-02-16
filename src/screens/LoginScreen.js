@@ -122,7 +122,7 @@ const LoginScreen = ({ navigation }) => {
         {/* Logo */}
         <View style={styles.logoContainer}>
           <Image 
-            source={require('../../assets/powertradefxlogo.png')} 
+            source={require('../../assets/powertraderfxicon.png')} 
             style={styles.logoImage}
             resizeMode="contain"
           />
